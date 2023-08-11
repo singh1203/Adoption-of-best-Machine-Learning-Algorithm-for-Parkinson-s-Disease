@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 # loading the saved models
-parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('./parkinsons_model.sav', 'rb'))
 
 
 
